@@ -17,6 +17,7 @@
   letter-spacing: 0.2px;
   font-size: 22px;
   line-height: 33px;
+  text-align: center;
 }
 
 .right button {
@@ -30,4 +31,41 @@
   letter-spacing: 0.44px;
   color: #292e36;
   cursor: pointer;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.right button:hover {
+  background: #dd9c3b;
+}
+
+@media (max-width: 1000px) {
+  .box {
+    margin: 0 10px;
+    gap: 20px;
+  }
+  .left {
+    padding: 8px 30px;
+    line-height: 27px;
+    font-size: 18px;
+  }
+
+  .right button {
+    padding: 8px 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .box {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .right button {
+    padding: 8px 16px;
+  }
 }
