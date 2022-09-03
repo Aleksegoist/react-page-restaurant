@@ -58,7 +58,7 @@ body {
 }
 
 .btn {
-  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
   border: 1px solid #e1b168;
   padding: 20px 57px;
   color: #e1b168;
@@ -66,4 +66,10 @@ body {
   line-height: 33px;
   background: transparent;
   cursor: pointer;
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  color: #fff;
+  background: #e1b168;
 }
