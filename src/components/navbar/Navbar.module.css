@@ -3,7 +3,7 @@
   background: #292e36;
   height: 80px;
   border-top: 1px solid #5c6168;
-  border-bottom: 1px solid #5c6168;
+  border-bottom: 1px dashed #5c6168;
 }
 
 .box {

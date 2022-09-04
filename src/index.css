@@ -40,7 +40,6 @@ a {
   color: inherit;
 }
 
-
 body {
   /* font-family: 'Cormorant Infant', serif; */
   font-family: 'Josefin Sans', sans-serif;
@@ -72,4 +71,21 @@ body {
 .btn:hover {
   color: #fff;
   background: #e1b168;
+}
+
+.title {
+  font-family: 'Cormorant Infant', serif;
+  line-height: 56px;
+  font-weight: 400;
+  font-size: 40px;
+  color: #292e36;
+}
+
+.subtitle {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
 }
