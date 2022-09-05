@@ -43,7 +43,7 @@
 .box_bottom {
   display: flex;
   align-items: center;
-  padding: 144px 0 125px 0;
+  padding-top: 144px;
   gap: 45px;
 }
 

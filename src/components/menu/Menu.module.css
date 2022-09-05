@@ -1,0 +1,158 @@
+.menu {
+  width: 100%;
+  margin-bottom: 140px;
+}
+
+.main_title {
+  width: 60px;
+  height: 30px;
+  border-bottom: 1px solid #e1b168;
+  border-top: 1px solid #e1b168;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 12px;
+}
+
+.main_title h3 {
+  position: absolute;
+  top: 6px;
+  left: 0px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #292e36;
+  z-index: 1;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
+}
+
+.left {
+  width: 486px;
+}
+
+.title_size {
+  margin-bottom: 13px;
+}
+
+.text_size {
+  margin-bottom: 45px;
+}
+
+.left img {
+  margin-bottom: 60px;
+}
+
+.right {
+  width: 100%;
+}
+
+.title_right_block {
+  font-size: 36px;
+  line-height: 50px;
+  margin-bottom: 39px;
+}
+
+.starters_block {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 49px;
+  align-items: center;
+  gap: 20px;
+}
+
+.starters_block img {
+  width: 84px;
+  height: 84px;
+}
+
+.text_box {
+  width: 400px;
+}
+
+.item_title {
+  width: 389px;
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+}
+
+/* .menu_meal {
+  display: flex;
+  width: 500px;
+  /* border-right: 1px solid black;
+  border-left: 1px solid black; */
+/* padding: 5px;
+} */
+
+/* .menu_meal:after {
+  border-bottom: 1px dotted black;
+  content: '';
+  flex: 1;
+} */
+
+/* .ul li {
+  display: flex;
+} */
+
+.lineWrapper {
+  display: flex;
+  align-items: baseline;
+}
+.middle {
+  border-bottom: 1px dotted #aaa;
+  flex-grow: 1;
+  margin: 0 5px;
+}
+.ingredients {
+  color: #bbb;
+  margin-bottom: 1em;
+}
+/* .line {
+  max-width: 100%;
+  border-bottom: 1px solid #aaaaaa;
+} */
+
+/* .ul {
+  min-width: 320px;
+  max-width: 500px;
+}
+
+.ul li {
+  border-bottom: 2px dotted green;
+  position: relative;
+  float: left;
+  line-height: 1.2em;
+  margin: -0.9em 0 0 0;
+  width: 100%;
+  text-align: left;
+}
+
+.menu_meal span {
+  background-color: #fff;
+  margin: 0;
+  position: relative;
+  top: 1.6em;
+  padding-right: 5px;
+}
+
+.money {
+  background-color: #fff;
+  padding: 1px 0 1px 5px;
+  position: relative;
+  top: 0.4em;
+  left: 1px;
+  float: right;
+}
+
+.menu_meal {
+  padding-right: 3em;
+} */
