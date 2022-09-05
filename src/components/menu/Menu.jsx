@@ -39,26 +39,26 @@ const Menu = () => {
               <h1 className={`${def.title} ${s.title_right_block}`}>
                 Starters
               </h1>
+              {/* ----------------------------------------------- */}
               <div className={s.starters_block}>
-                <div>
-                  <img src={MenuItem1} alt='img' />
+                <div className={s.text_box}>
+                  <div>
+                    <img src={MenuItem1} alt='img' />
+                  </div>
+                  <div className={s.bottom_line}>
+                    <div>
+                      <h2 className={s.item_title}>Raw Scallops from Erquy</h2>
+                      <p className={`${def.text} ${s.line}`}>
+                        Shuck the scallop to that used for oysters
+                      </p>
+                    </div>
+                    <div>
+                      <p className={s.price}>$40</p>
+                    </div>
+                  </div>
                 </div>
-
-                <div className={s.lineWrapper}>
-                  <div>wewedjkwjedn</div>
-                  <div className={s.middle}></div>
-                  <div>$40</div>
-                  <div className={s.ingredients}>23d23d d23d2 23d23d...</div>
-                </div>
-                {/* <div className={s.text_box}>
-                  <h2 className={s.item_title}>Raw Scallops from Erquy</h2>
-                  <p className={def.text}>
-                    Shuck the scallop to that used for oysters
-                  </p>
-                </div>
-                <div className={s.line}></div>
-                <p className={s.price}>$40</p> */}
               </div>
+              {/* ---------------------------------------------------------------- */}
               <div className={s.starters_block}>
                 <div>
                   <img src={MenuItem2} alt='img' />

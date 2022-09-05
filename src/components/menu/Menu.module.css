@@ -60,7 +60,7 @@
 
 .starters_block {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin-bottom: 49px;
   align-items: center;
   gap: 20px;
@@ -72,7 +72,8 @@
 }
 
 .text_box {
-  width: 400px;
+  display: flex;
+  align-items: center;
 }
 
 .item_title {
@@ -85,74 +86,7 @@
   color: #292e36;
 }
 
-/* .menu_meal {
+.bottom_line {
   display: flex;
-  width: 500px;
-  /* border-right: 1px solid black;
-  border-left: 1px solid black; */
-/* padding: 5px;
-} */
-
-/* .menu_meal:after {
-  border-bottom: 1px dotted black;
-  content: '';
-  flex: 1;
-} */
-
-/* .ul li {
-  display: flex;
-} */
-
-.lineWrapper {
-  display: flex;
-  align-items: baseline;
+  justify-content: space-between;
 }
-.middle {
-  border-bottom: 1px dotted #aaa;
-  flex-grow: 1;
-  margin: 0 5px;
-}
-.ingredients {
-  color: #bbb;
-  margin-bottom: 1em;
-}
-/* .line {
-  max-width: 100%;
-  border-bottom: 1px solid #aaaaaa;
-} */
-
-/* .ul {
-  min-width: 320px;
-  max-width: 500px;
-}
-
-.ul li {
-  border-bottom: 2px dotted green;
-  position: relative;
-  float: left;
-  line-height: 1.2em;
-  margin: -0.9em 0 0 0;
-  width: 100%;
-  text-align: left;
-}
-
-.menu_meal span {
-  background-color: #fff;
-  margin: 0;
-  position: relative;
-  top: 1.6em;
-  padding-right: 5px;
-}
-
-.money {
-  background-color: #fff;
-  padding: 1px 0 1px 5px;
-  position: relative;
-  top: 0.4em;
-  left: 1px;
-  float: right;
-}
-
-.menu_meal {
-  padding-right: 3em;
-} */
